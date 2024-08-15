@@ -3,10 +3,7 @@ layout: home
 title: Welcome to My GitHub Pages Site
 ---
 
-# Hello, World!
+# Welcome to My Website
 
-Welcome to my website! This is a simple site built with Jekyll and Markdown.
+I am a self-motivated software engineer, who loves to make a impact on their community. This website will showcase who I am, my interests, and more.
 
-I created this site to share my journey as a software engineer, showcase my projects, and write about topics that interest me. Whether it's coding tips, travel experiences, or anything in between, you'll find it all here.
-
-Take a look around, and feel free to reach out if you want to connect!
