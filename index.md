@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Welcome to My GitHub Pages Site
+minima:
+  skin: dark
 ---
 
 # Welcome to My Website
