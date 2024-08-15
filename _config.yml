@@ -1,3 +1,56 @@
+# Site settings
+title: Zane's Homepage
+description: Exploring all that GitHub has to offer
+author: Zane Perrin Smith
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-midnight
-title: Zane's homepage
-description: Exploring everything GitHub provides :)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalinks
+permalink: pretty
+
+# # SEO settings
+# seo:
+#   title: "My GitHub Pages Site"
+#   description: "A simple website using Jekyll and Markdown"
+#   author: "Your Name"
+#   url: "https://yourusername.github.io"
+
+# # Social media links
+# social_links:
+#   github: "https://github.com/yourusername"
+#   linkedin: "https://www.linkedin.com/in/yourusername"
+#   twitter: "https://twitter.com/yourusername"
+
+# Defaults for front matter
+# defaults:
+#   - scope:
+#       path: "" # An empty string here means all files in the project
+#       type: "posts"
+#     values:
+#       layout: "post"
+#       author: "Your Name"
+
+# Exclude files from the build process
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+
+# Plugins configuration
+jekyll-feed:
+  path: /feed.xml
+
+# Markdown configuration
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
