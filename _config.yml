@@ -8,6 +8,11 @@ author: Zane Perrin Smith
 # Build settings
 markdown: kramdown
 theme: minima # You can choose another theme if you like
+
+# Use dark mode
+minima:
+  skin: dark
+  
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -56,7 +61,3 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
-
-# Use dark mode
-minima:
-  skin: dark
