@@ -7,7 +7,7 @@ author: Zane Perrin Smith
 
 # Build settings
 markdown: kramdown
-theme: minima # You can choose another theme if you like
+theme: jekyll-theme-midnight # You can choose another theme if you like
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
